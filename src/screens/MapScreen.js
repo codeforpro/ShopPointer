@@ -83,7 +83,7 @@ export default class MapScreen extends React.Component {
                             latitude: this.state.latitude,
                             longitude: this.state.longitude
                         }}
-                        title={"AGREEYA"}
+                        title={"Test"}
                         description={"OFFICE"}
                     />
                 </MapView>

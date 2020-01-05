@@ -349,7 +349,7 @@ export default class DashboardScreen extends React.Component {
                                 onPress={this._onCurrentLocationPress}>
                                 <Image
                                     style={{ width: 40, height: 40, padding: 0 }}
-                                    source={require('../assets/mapicons/markercurrent.png')}
+                                    source={require('../assets/markercurrent.png')}
                                 />
                             </TouchableOpacity>
                         </View>
@@ -365,7 +365,7 @@ export default class DashboardScreen extends React.Component {
                                 onPress={this._onPrevPress}>
                                 <Image
                                     style={{ width: 40, height: 40, padding: 0 }}
-                                    source={require('../assets/mapicons/leftarrow.png')}
+                                    source={require('../assets/leftarrow.png')}
                                 />
                             </TouchableOpacity>
 
@@ -373,7 +373,7 @@ export default class DashboardScreen extends React.Component {
                                 onPress={this._onRefreshPress}>
                                 <Image
                                     style={{ width: 40, height: 40, padding: 0 }}
-                                    source={require('../assets/mapicons/reseticon.png')}
+                                    source={require('../assets/reseticon.png')}
                                 />
                             </TouchableOpacity>
 
@@ -381,7 +381,7 @@ export default class DashboardScreen extends React.Component {
                                 onPress={this._onNextPress}>
                                 <Image
                                     style={{ width: 40, height: 40, padding: 0 }}
-                                    source={require('../assets/mapicons/rightarrow.png')}
+                                    source={require('../assets/rightarrow.png')}
                                 />
                             </TouchableOpacity>
 
@@ -414,12 +414,12 @@ export default class DashboardScreen extends React.Component {
     renderIcon(marker) {
 
         if (marker.type === 'Bookshops') {
-            return require('../assets/mapicons/markerbook.png')
+            return require('../assets/markerbook.png')
         } else if (marker.type === 'MedicineShop') {
-            return require('../assets/mapicons/markermedicine.png')
+            return require('../assets/markermedicine.png')
         }
         else {
-            return require('../assets/mapicons/flowerShop.png')
+            return require('../assets/flowerShop.png')
         }
     }
 

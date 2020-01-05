@@ -13,7 +13,7 @@ export default class RightAction extends Component {
         onPress={() => onRightPress(state)}>
         <Image
           style={{ width: 40, height: 40, padding: 0 }}
-          source={require('../assets/mapicons/filter.png')}
+          source={require('../assets/filter.png')}
         />
       </TouchableOpacity>
     );
